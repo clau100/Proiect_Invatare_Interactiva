@@ -6,6 +6,135 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MainMapScene.unity
+    guid: 96e079d277479e04c8cbb2a84e78b047
+  - enabled: 1
+    path: Assets/Scenes/Counties/AlbaSprite.unity
+    guid: 668754893ecc322458489abad35b3535
+  - enabled: 1
+    path: Assets/Scenes/Counties/AradSprite.unity
+    guid: 9fb7cbadf681b6042a53490b1fed168c
+  - enabled: 1
+    path: Assets/Scenes/Counties/ArgesSprite.unity
+    guid: c44d56ca093842b41a8117e7e7eacfad
+  - enabled: 1
+    path: Assets/Scenes/Counties/BacauSprite.unity
+    guid: 08f181c2390dd184baf80d62302213b7
+  - enabled: 1
+    path: Assets/Scenes/Counties/BihorSprite.unity
+    guid: f14fc63b484f44e4f97e51753fdb007e
+  - enabled: 1
+    path: Assets/Scenes/Counties/Bistrita-NasaudSprite.unity
+    guid: 249f75b046c63244c8a77fff7954cc17
+  - enabled: 1
+    path: Assets/Scenes/Counties/BotosaniSprite.unity
+    guid: 35853532704f5344897ec572236ac1db
+  - enabled: 1
+    path: Assets/Scenes/Counties/BrailaSprite.unity
+    guid: 7f352ce5e8785064db37d4934e8bbefc
+  - enabled: 1
+    path: Assets/Scenes/Counties/BrasovSprite.unity
+    guid: f6be5a429b9c4e3488699b8a8d045694
+  - enabled: 1
+    path: Assets/Scenes/Counties/BucharestSprite.unity
+    guid: 3189aa02325e77848834447393dc3d1b
+  - enabled: 1
+    path: Assets/Scenes/Counties/BuzauSprite.unity
+    guid: 3757a9cd0a9cd1f4caa14fa3236fdd5e
+  - enabled: 1
+    path: Assets/Scenes/Counties/CalarasiSprite.unity
+    guid: 6e005ee1c371dfd439447325220f634d
+  - enabled: 1
+    path: Assets/Scenes/Counties/Caras-SeverinSprite.unity
+    guid: 9efed7f4ed03ad54f8f77edec967983c
+  - enabled: 1
+    path: Assets/Scenes/Counties/ClujSprite.unity
+    guid: 43081638151e94544a344c8225872b59
+  - enabled: 1
+    path: Assets/Scenes/Counties/ConstantaSprite.unity
+    guid: f80279fe38d844c41b6dfebf387b8b61
+  - enabled: 1
+    path: Assets/Scenes/Counties/CovasnaSprite.unity
+    guid: 029efb05e185b2147b9a1dfb6feb0878
+  - enabled: 1
+    path: Assets/Scenes/Counties/DoljSprite.unity
+    guid: 0f8117c60b1861e4f9657acda0938816
+  - enabled: 1
+    path: "Assets/Scenes/Counties/D\xE2mbovitaSprite.unity"
+    guid: 1d65ec310c938fb4a9c6a72646d04d63
+  - enabled: 1
+    path: Assets/Scenes/Counties/GalatiSprite.unity
+    guid: 112df33e23fb9c64bbdf8c64966f7ae1
+  - enabled: 1
+    path: Assets/Scenes/Counties/GiurgiuSprite.unity
+    guid: 0516baa92dad3a9459b726bef80ecf52
+  - enabled: 1
+    path: Assets/Scenes/Counties/GorjSprite.unity
+    guid: 2a4f132684835ab4493a0d37773e24d2
+  - enabled: 1
+    path: Assets/Scenes/Counties/HarghitaSprite.unity
+    guid: fdc29d4ccc612434dbd39ce4fa2a4d70
+  - enabled: 1
+    path: Assets/Scenes/Counties/HunedoaraSprite.unity
+    guid: 9bc2a93ec4ff0504b9527c756cc479d7
+  - enabled: 1
+    path: Assets/Scenes/Counties/IalomitaSprite.unity
+    guid: 8c804428418b65940a6830169f49d169
+  - enabled: 1
+    path: Assets/Scenes/Counties/IasiSprite.unity
+    guid: ac8e387a32d84c64b9260e7cbf27a35f
+  - enabled: 1
+    path: Assets/Scenes/Counties/IlfovSprite.unity
+    guid: ced06c6f34f52b5498280b7a1d64fde1
+  - enabled: 1
+    path: Assets/Scenes/Counties/MaramuresSprite.unity
+    guid: 40ef0c7d8ac35af4b807384cad989d6d
+  - enabled: 1
+    path: Assets/Scenes/Counties/MehedintiSprite.unity
+    guid: 9e3022af7c8678c4e9f6e0b68b84c930
+  - enabled: 1
+    path: Assets/Scenes/Counties/MuresSprite.unity
+    guid: 8c283d1840f0edc42b1e041d082375b4
+  - enabled: 1
+    path: Assets/Scenes/Counties/NeamtSprite.unity
+    guid: c13de4ff19ac12c4e8f417aa73b62e13
+  - enabled: 1
+    path: Assets/Scenes/Counties/OltSprite.unity
+    guid: a3705178dbb1cae4b8cdcf65bb9c7b61
+  - enabled: 1
+    path: Assets/Scenes/Counties/PrahovaSprite.unity
+    guid: 095ac7a8594859e43a08e5fa2aa56c47
+  - enabled: 1
+    path: Assets/Scenes/Counties/SalajSprite.unity
+    guid: 3dc8ad3453531ef4390c8c052093c422
+  - enabled: 1
+    path: Assets/Scenes/Counties/Satu MareSprite.unity
+    guid: bdd447f87f431744eaf7a93ba9af2d29
+  - enabled: 1
+    path: Assets/Scenes/Counties/SibiuSprite.unity
+    guid: f45d0c495f7ef794fb5ac1a2fbe7a46e
+  - enabled: 1
+    path: Assets/Scenes/Counties/SuceavaSprite.unity
+    guid: 07286aa17085d164c979e3776b229bca
+  - enabled: 1
+    path: Assets/Scenes/Counties/TeleormanSprite.unity
+    guid: 8a90e2c2e647ac14f8f8501be48ec718
+  - enabled: 1
+    path: Assets/Scenes/Counties/TimisSprite.unity
+    guid: 78ddd9f4dc3e3984f8f61e04a8a1ecf4
+  - enabled: 1
+    path: Assets/Scenes/Counties/TulceaSprite.unity
+    guid: aa6f384fca38a4149bd58331ac3378a6
+  - enabled: 1
+    path: Assets/Scenes/Counties/VasluiSprite.unity
+    guid: f7966fae0eba4314f8fbc6d7be7abc57
+  - enabled: 1
+    path: Assets/Scenes/Counties/VranceaSprite.unity
+    guid: dc473f86c4808d249a11b4a13badc088
+  - enabled: 1
+    path: "Assets/Scenes/Counties/V\xE2lceaSprite.unity"
+    guid: 840db8a9a07b0bc46b1ae731a0767578
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   m_configObjects:
