@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Maramures_0: 2549951826789349855
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

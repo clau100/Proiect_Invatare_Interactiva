@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Galati_0: 8912920005965817606
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

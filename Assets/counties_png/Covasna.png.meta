@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Covasna_0: 5249542207133954765
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Teleorman_0: -314723915784813973
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user\\source\\repos\\Proiect_Invatare_Interactiva\\",
+  "WorkspaceRootPath": "C:\\Users\\claud\\Downloads\\Proiect_Invatare_Interactiva\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BAB437C9-5354-EE3E-185D-32E00589EC8C}|Assembly-CSharp-Editor.csproj|c:\\users\\user\\source\\repos\\proiect_invatare_interactiva\\assets\\editor\\buildsettingssceneadder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BAB437C9-5354-EE3E-185D-32E00589EC8C}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\buildsettingssceneadder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\claud\\Downloads\\Proiect_Invatare_Interactiva\\Assets\\Editor\\CountySceneGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Editor\\CountySceneGenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD80C843-C032-7F3D-3C51-8789CCDABFE0}|Assembly-CSharp.csproj|c:\\users\\user\\source\\repos\\proiect_invatare_interactiva\\assets\\runtimescripts\\countyclickhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD80C843-C032-7F3D-3C51-8789CCDABFE0}|Assembly-CSharp.csproj|solutionrelative:assets\\runtimescripts\\countyclickhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\claud\\Downloads\\Proiect_Invatare_Interactiva\\Assets\\RuntimeScripts\\CountyClickHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\RuntimeScripts\\CountyClickHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\claud\\Downloads\\Proiect_Invatare_Interactiva\\Assets\\Shaders\\OutlineShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shaders\\OutlineShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +27,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BuildSettingsSceneAdder.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Proiect_Invatare_Interactiva\\Assets\\Editor\\BuildSettingsSceneAdder.cs",
-              "RelativeDocumentMoniker": "Assets\\Editor\\BuildSettingsSceneAdder.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Proiect_Invatare_Interactiva\\Assets\\Editor\\BuildSettingsSceneAdder.cs",
-              "RelativeToolTip": "Assets\\Editor\\BuildSettingsSceneAdder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Title": "CountySceneGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Downloads\\Proiect_Invatare_Interactiva\\Assets\\Editor\\CountySceneGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\CountySceneGenerator.cs",
+              "ToolTip": "C:\\Users\\claud\\Downloads\\Proiect_Invatare_Interactiva\\Assets\\Editor\\CountySceneGenerator.cs",
+              "RelativeToolTip": "Assets\\Editor\\CountySceneGenerator.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T12:23:59.11Z",
+              "WhenOpened": "2025-04-12T08:10:19.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OutlineShader.shader",
+              "DocumentMoniker": "C:\\Users\\claud\\Downloads\\Proiect_Invatare_Interactiva\\Assets\\Shaders\\OutlineShader.shader",
+              "RelativeDocumentMoniker": "Assets\\Shaders\\OutlineShader.shader",
+              "ToolTip": "C:\\Users\\claud\\Downloads\\Proiect_Invatare_Interactiva\\Assets\\Shaders\\OutlineShader.shader",
+              "RelativeToolTip": "Assets\\Shaders\\OutlineShader.shader",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-12T07:49:37.043Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "CountyClickHandler.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\Proiect_Invatare_Interactiva\\Assets\\RuntimeScripts\\CountyClickHandler.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Downloads\\Proiect_Invatare_Interactiva\\Assets\\RuntimeScripts\\CountyClickHandler.cs",
               "RelativeDocumentMoniker": "Assets\\RuntimeScripts\\CountyClickHandler.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\Proiect_Invatare_Interactiva\\Assets\\RuntimeScripts\\CountyClickHandler.cs",
+              "ToolTip": "C:\\Users\\claud\\Downloads\\Proiect_Invatare_Interactiva\\Assets\\RuntimeScripts\\CountyClickHandler.cs",
               "RelativeToolTip": "Assets\\RuntimeScripts\\CountyClickHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-08T12:20:33.207Z",
+              "WhenOpened": "2025-04-12T07:43:59.742Z",
               "EditorCaption": ""
             }
           ]

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Cluj_0: 3654899781226035053
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

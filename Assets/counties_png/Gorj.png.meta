@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Gorj_0: 6881133470653239341
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
