@@ -24,6 +24,11 @@ public class AttachCountyClickHandlers : MonoBehaviour
                 countyObject.AddComponent<CountyClickHandler>();
                 Debug.Log($"✅ Click handler added to: {countyObject.name}");
             }
+
+            if (countyObject.GetComponent<CountyClickHandler>().outlineMaterial == null)
+            {
+                countyObject.GetComponent<CountyClickHandler>().outlineMaterial = Resources.Load<Material>("Materials/OutlineMaterial");
+            }
         }
 
         Debug.Log("🎉 All counties now have click handlers!");
