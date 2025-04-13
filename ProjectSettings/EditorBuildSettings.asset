@@ -137,6 +137,135 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Counties/Alba.unity
+    guid: faea856d67990774d9b53a177931a0f0
+  - enabled: 1
+    path: Assets/Scenes/Counties/Arad.unity
+    guid: 9acae103fb017324792bc009bdc6571e
+  - enabled: 1
+    path: Assets/Scenes/Counties/Arges.unity
+    guid: b7e4588838e8da74ab158181efa0f64c
+  - enabled: 1
+    path: Assets/Scenes/Counties/Bacau.unity
+    guid: 4d15ad5527ef47340b7189ad6beb805f
+  - enabled: 1
+    path: Assets/Scenes/Counties/Bihor.unity
+    guid: 23e6bd462d77f4e49a8aa551bedbe230
+  - enabled: 1
+    path: Assets/Scenes/Counties/Bistrita-Nasaud.unity
+    guid: 39abfd6d55bbbb340a281f894850c98e
+  - enabled: 1
+    path: Assets/Scenes/Counties/Botosani.unity
+    guid: 271d9a50836f193488477691aa52a6a4
+  - enabled: 1
+    path: Assets/Scenes/Counties/Braila.unity
+    guid: c6bc15ada1acae34f823868e9f7724ff
+  - enabled: 1
+    path: Assets/Scenes/Counties/Brasov.unity
+    guid: c7cbc39f4446187468ddf4c91db73473
+  - enabled: 1
+    path: Assets/Scenes/Counties/Bucharest.unity
+    guid: 9aa461eb9bd2cab4783080bbdb79636a
+  - enabled: 1
+    path: Assets/Scenes/Counties/Buzau.unity
+    guid: 1cbc1802de2c4754cbdec85a0f46ef17
+  - enabled: 1
+    path: Assets/Scenes/Counties/Calarasi.unity
+    guid: f10cf1d038d16bb4abf1dd02ab2ccd7c
+  - enabled: 1
+    path: Assets/Scenes/Counties/Caras-Severin.unity
+    guid: 32e05dc51ec040c4b8a44463bdd97f70
+  - enabled: 1
+    path: Assets/Scenes/Counties/Cluj.unity
+    guid: 9546efd7ff87b314d8a3941906442db2
+  - enabled: 1
+    path: Assets/Scenes/Counties/Constanta.unity
+    guid: eff544d54b0a77c46aebb19bd6e473a4
+  - enabled: 1
+    path: Assets/Scenes/Counties/Covasna.unity
+    guid: f7fe8bcb6a076534ba746e58c59af6aa
+  - enabled: 1
+    path: Assets/Scenes/Counties/Dolj.unity
+    guid: 4bb378ccb6073004184d5e46c4df88cc
+  - enabled: 1
+    path: "Assets/Scenes/Counties/D\xE2mbovita.unity"
+    guid: b4d041f0bc22ae148a02e0b21b912c63
+  - enabled: 1
+    path: Assets/Scenes/Counties/Galati.unity
+    guid: 057a1403188ba684b86b2d05358cf139
+  - enabled: 1
+    path: Assets/Scenes/Counties/Giurgiu.unity
+    guid: b4b3270c64204324c9cafe58674fd13e
+  - enabled: 1
+    path: Assets/Scenes/Counties/Gorj.unity
+    guid: e728f0dbc7271774eaba4db29799b61d
+  - enabled: 1
+    path: Assets/Scenes/Counties/Harghita.unity
+    guid: f886f206b815b8b4e81c3d68013412fe
+  - enabled: 1
+    path: Assets/Scenes/Counties/Hunedoara.unity
+    guid: f63534f92982749438ffea0166647ed7
+  - enabled: 1
+    path: Assets/Scenes/Counties/Ialomita.unity
+    guid: a2c3872580eee5b449955dc2a4516465
+  - enabled: 1
+    path: Assets/Scenes/Counties/Iasi.unity
+    guid: 5e06edb94f29dc448a065dea7b58438b
+  - enabled: 1
+    path: Assets/Scenes/Counties/Ilfov.unity
+    guid: 30e8abc4a15dd3447852dbe273094bc5
+  - enabled: 1
+    path: Assets/Scenes/Counties/Maramures.unity
+    guid: fb2590b0630faa644bb43287f77760b6
+  - enabled: 1
+    path: Assets/Scenes/Counties/Mehedinti.unity
+    guid: 99591913baddcf641b145f2b41883e34
+  - enabled: 1
+    path: Assets/Scenes/Counties/Mures.unity
+    guid: 1c1a86a1b91b61845a61ed136393f057
+  - enabled: 1
+    path: Assets/Scenes/Counties/Neamt.unity
+    guid: eeae5f47da3a75243b647970368955c7
+  - enabled: 1
+    path: Assets/Scenes/Counties/Olt.unity
+    guid: 521731aa55968f8458070d325d19db18
+  - enabled: 1
+    path: Assets/Scenes/Counties/Prahova.unity
+    guid: 13edff61f54cf084f9cc8bd8e73b3391
+  - enabled: 1
+    path: Assets/Scenes/Counties/Salaj.unity
+    guid: 05008867046978f40989481da02780a1
+  - enabled: 1
+    path: Assets/Scenes/Counties/Satu Mare.unity
+    guid: 3026a0d66acd8c74e840af093bc7d671
+  - enabled: 1
+    path: Assets/Scenes/Counties/Sibiu.unity
+    guid: ef5186f48b330134b94a6c2fd342201b
+  - enabled: 1
+    path: Assets/Scenes/Counties/Suceava.unity
+    guid: a95d0c10e80dbd44cbbceb9ef62e85c2
+  - enabled: 1
+    path: Assets/Scenes/Counties/Teleorman.unity
+    guid: 4b8250aa1b325504dafc7b0893d2367c
+  - enabled: 1
+    path: Assets/Scenes/Counties/Timis.unity
+    guid: 451a3055616530347bbaf33240f21efc
+  - enabled: 1
+    path: Assets/Scenes/Counties/Tulcea.unity
+    guid: 8b8d2cb91575b194186ee72407e2ac16
+  - enabled: 1
+    path: Assets/Scenes/Counties/Vaslui.unity
+    guid: 1bfe8e44e4b77974fb2784924dad9ce2
+  - enabled: 1
+    path: Assets/Scenes/Counties/Vrancea.unity
+    guid: 2832cf92f43336c45a8efd273513f42c
+  - enabled: 1
+    path: "Assets/Scenes/Counties/V\xE2lcea.unity"
+    guid: 82d5a75ed9d2afc40950e1623becc6ac
+  - enabled: 1
+    path: Assets/Scenes/MainMap.unity
+    guid: dcd5ee613c9ad19428108211bfa20424
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

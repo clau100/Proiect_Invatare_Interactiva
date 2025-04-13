@@ -9,10 +9,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\claud\\Downloads\\Proiect_Invatare_Interactiva\\Assets\\RuntimeScripts\\CountyClickHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\RuntimeScripts\\CountyClickHandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\claud\\Downloads\\Proiect_Invatare_Interactiva\\Assets\\Shaders\\OutlineShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Shaders\\OutlineShader.shader||{3B902123-F8A7-4915-9F01-361F908088D0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,34 +18,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CountySceneGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\claud\\Downloads\\Proiect_Invatare_Interactiva\\Assets\\Editor\\CountySceneGenerator.cs",
-              "RelativeDocumentMoniker": "Assets\\Editor\\CountySceneGenerator.cs",
-              "ToolTip": "C:\\Users\\claud\\Downloads\\Proiect_Invatare_Interactiva\\Assets\\Editor\\CountySceneGenerator.cs",
-              "RelativeToolTip": "Assets\\Editor\\CountySceneGenerator.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T08:10:19.693Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OutlineShader.shader",
-              "DocumentMoniker": "C:\\Users\\claud\\Downloads\\Proiect_Invatare_Interactiva\\Assets\\Shaders\\OutlineShader.shader",
-              "RelativeDocumentMoniker": "Assets\\Shaders\\OutlineShader.shader",
-              "ToolTip": "C:\\Users\\claud\\Downloads\\Proiect_Invatare_Interactiva\\Assets\\Shaders\\OutlineShader.shader",
-              "RelativeToolTip": "Assets\\Shaders\\OutlineShader.shader",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-04-12T07:49:37.043Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -58,9 +28,22 @@
               "RelativeDocumentMoniker": "Assets\\RuntimeScripts\\CountyClickHandler.cs",
               "ToolTip": "C:\\Users\\claud\\Downloads\\Proiect_Invatare_Interactiva\\Assets\\RuntimeScripts\\CountyClickHandler.cs",
               "RelativeToolTip": "Assets\\RuntimeScripts\\CountyClickHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAFsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T07:43:59.742Z",
+              "WhenOpened": "2025-04-13T13:59:11.57Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CountySceneGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\claud\\Downloads\\Proiect_Invatare_Interactiva\\Assets\\Editor\\CountySceneGenerator.cs",
+              "RelativeDocumentMoniker": "Assets\\Editor\\CountySceneGenerator.cs",
+              "ToolTip": "C:\\Users\\claud\\Downloads\\Proiect_Invatare_Interactiva\\Assets\\Editor\\CountySceneGenerator.cs",
+              "RelativeToolTip": "Assets\\Editor\\CountySceneGenerator.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAADwv3AAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T08:10:19.693Z",
               "EditorCaption": ""
             }
           ]
