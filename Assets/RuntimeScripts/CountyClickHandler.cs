@@ -11,7 +11,7 @@ public class CountyClickHandler : MonoBehaviour
 
     public Material outlineMaterial;
 
-    static readonly Dictionary<string, Color> countyData = new Dictionary<string, Color>
+    static readonly Dictionary<string, Color> regionData = new Dictionary<string, Color>
     {
         { "Satu Mare",          new Color(250.0f / 255.0f, 165.0f / 255.0f, 46.0f / 255.0f, 1.0f)},
         { "Arad",               new Color(107.0f / 255.0f, 101.0f / 255.0f, 211.0f / 255.0f, 1.0f)},
@@ -62,14 +62,14 @@ public class CountyClickHandler : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         spriteRenderer.material = new Material(outlineMaterial);
 
-        Color unfocusedColor = countyData[gameObject.name];
+        Color unfocusedColor = regionData[gameObject.name];
         unfocusedColor.a = 0.3f;
         spriteRenderer.material.SetColor("_OutlineColor", unfocusedColor);
     }
 
     private void OnMouseEnter()
     {
-        spriteRenderer.material.SetColor("_OutlineColor", countyData[gameObject.name]);
+        spriteRenderer.material.SetColor("_OutlineColor", regionData[gameObject.name]);
 
         TMP_Text countryUIText = GameObject.Find("CountryUI").GetComponent<TMP_Text>();
         countryUIText.text = gameObject.name;
@@ -77,7 +77,7 @@ public class CountyClickHandler : MonoBehaviour
 
     private void OnMouseExit()
     {
-        Color unfocusedColor = countyData[gameObject.name];
+        Color unfocusedColor = regionData[gameObject.name];
         unfocusedColor.a = 0.3f;
 
         spriteRenderer.material.SetColor("_OutlineColor", unfocusedColor);
