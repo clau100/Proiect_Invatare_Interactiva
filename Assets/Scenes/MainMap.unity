@@ -5037,7 +5037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb166b1c3766888459cb557a44894ad7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: SampleScene
+  sceneToLoad: DigScene
   outlineMaterial: {fileID: 2100000, guid: dc8162893c2051e479bf6d63f6dc50fd, type: 2}
 --- !u!1 &1860345597
 GameObject:
@@ -5981,7 +5981,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb166b1c3766888459cb557a44894ad7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: SampleScene
+  sceneToLoad: DigScene
   outlineMaterial: {fileID: 2100000, guid: dc8162893c2051e479bf6d63f6dc50fd, type: 2}
 --- !u!1 &2117321278
 GameObject:
