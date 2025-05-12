@@ -121,6 +121,4 @@ public class QuizManager : MonoBehaviour
         // Apply background color
         quizCompletePanel.GetComponent<Image>().color = bgColor;
     }
-
-
 }

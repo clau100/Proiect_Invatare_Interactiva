@@ -26,6 +26,4 @@ public class AnswerScript : MonoBehaviour
             quizManager.AnswerSelected(false);
         }
     }
-
-
 }

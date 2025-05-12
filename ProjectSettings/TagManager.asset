@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 3
-  tags: []
+  tags:
+  - PuzzlePiece
   layers:
   - Default
   - TransparentFX
@@ -40,6 +41,12 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: PuzzlePiece
+    uniqueID: 4206728843
+    locked: 0
+  - name: DropSlot
+    uniqueID: 1803106501
     locked: 0
   m_RenderingLayers:
   - Default
