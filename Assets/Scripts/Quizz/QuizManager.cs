@@ -1,74 +1,126 @@
+﻿using System.Collections.Generic;
 using UnityEngine;
-
-// Assets/Scripts/Quiz/QuizManager.cs
-
-using UnityEngine.UI;
 using TMPro;
+using UnityEngine.UI;
 
-[RequireComponent(typeof(CanvasGroup))]
+
 public class QuizManager : MonoBehaviour
 {
-    [System.Serializable]
-    public class Question
+    public List<QuestionAndAnswers> QnA;
+    public GameObject[] options;
+    public int currentQuestion;
+    public TextMeshProUGUI feedbackText;
+
+
+    public TextMeshProUGUI QuestionTxt;
+
+    // NEW: Quiz completion UI
+    public GameObject quizCompletePanel;
+    public TextMeshProUGUI scoreText;
+
+    // NEW: Tracking score
+    private int totalQuestions;
+    private int correctAnswers;
+
+    private void Start()
     {
-        public string text;
-        public string[] choices;
-        public int correctIndex;
+        totalQuestions = QnA.Count;
+        generateQuestion();
     }
 
-    public Question[] questions;
-    public TextMeshProUGUI questionText;
-    public Button[] choiceButtons;
-    public GameObject quizPanel;
-    public GameObject digGridContainer;
+    //public void correct()
+    //{
+    //    correctAnswers++;
+    //    QnA.RemoveAt(currentQuestion);
+    //    Debug.Log("Remaining questions: " + QnA.Count);
 
-    private int currentQuestion = 0;
-    private int score = 0;
+    //    if (QnA.Count > 0)
+    //    {
+    //        generateQuestion();
+    //    }
+    //    else
+    //    {
+    //        ShowResults();
+    //    }
+    //}
 
-    void Start()
+
+    void SetAnswers()
     {
-        digGridContainer.SetActive(false);
-        ShowQuestion();
-    }
-
-    void ShowQuestion()
-    {
-        var q = questions[currentQuestion];
-        questionText.text = q.text;
-
-        for (int i = 0; i < choiceButtons.Length; i++)
+        for (int i = 0; i < options.Length; i++)
         {
-            if (i < q.choices.Length)
+            AnswerScript answerScript = options[i].GetComponent<AnswerScript>();
+
+            answerScript.quizManager = this;
+            answerScript.isCorrect = false;
+
+            options[i].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text =
+                QnA[currentQuestion].Answers[i];
+
+            if (QnA[currentQuestion].CorrectAnswer == i)
             {
-                choiceButtons[i].gameObject.SetActive(true);
-                choiceButtons[i].GetComponentInChildren<TextMeshProUGUI>().text = q.choices[i];
-                int idx = i;
-                choiceButtons[i].onClick.RemoveAllListeners();
-                choiceButtons[i].onClick.AddListener(() => OnAnswer(idx));
-            }
-            else
-            {
-                choiceButtons[i].gameObject.SetActive(false);
+                answerScript.isCorrect = true;
             }
         }
     }
 
-    void OnAnswer(int chosen)
+    public void AnswerSelected(bool isCorrect)
     {
-        if (chosen == questions[currentQuestion].correctIndex)
-            score++;
+        if (isCorrect)
+            correctAnswers++;
 
-        currentQuestion++;
-        if (currentQuestion < questions.Length)
-            ShowQuestion();
+        QnA.RemoveAt(currentQuestion);
+
+        if (QnA.Count > 0)
+        {
+            generateQuestion();
+        }
         else
-            EndQuiz();
+        {
+            ShowResults();
+        }
     }
 
-    void EndQuiz()
+
+    void generateQuestion()
     {
-        quizPanel.SetActive(false);
-        digGridContainer.SetActive(true);
+        currentQuestion = Random.Range(0, QnA.Count);
+        QuestionTxt.text = QnA[currentQuestion].Question;
+        SetAnswers();
     }
-}
 
+    // NEW: Display the quiz result
+    void ShowResults()
+    {
+        Debug.Log("ShowResults() called");
+
+        quizCompletePanel.SetActive(true);
+
+        float percentage = (float)correctAnswers / totalQuestions;
+        scoreText.text = "Raspunsuri corecte: " + correctAnswers + " / " + totalQuestions;
+
+        // Default color
+        Color bgColor = Color.white;
+
+        if (percentage < 0.3f)
+        {
+            feedbackText.text = "JALE, mai invata puiu!";
+            bgColor = new Color(0.8f, 0f, 0f); // Red
+        }
+        else if (percentage > 0.3f && percentage < 0.8f)
+        {
+            feedbackText.text = "Ești bine moșule!";
+            bgColor = new Color(1f, 0.65f, 0f); // Orange-yellow
+        }
+        else if (percentage >= 0.9f)
+        {
+            feedbackText.text = "ESTI TOP!";
+            bgColor = new Color(0f, 0.7f, 0.1f); // Green
+        }
+
+        // Apply background color
+        quizCompletePanel.GetComponent<Image>().color = bgColor;
+    }
+
+
+}
