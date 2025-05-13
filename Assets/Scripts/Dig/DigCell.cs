@@ -1,5 +1,3 @@
-using UnityEngine;
-
 // Assets/Scripts/Dig/DigCell.cs
 using UnityEngine;
 

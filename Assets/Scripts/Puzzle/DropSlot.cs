@@ -27,6 +27,12 @@ public class DropSlot : MonoBehaviour, IDropHandler
             if (piece.correctSlotIndex == slotIndex)
             {
                 Debug.Log("Correct placement!");
+                GameManager.Instance.placedPieces.Add(piece.correctSlotIndex);
+
+                // Call to check if the puzzle is complete
+                PuzzleManager.Instance.CheckWinCondition();
+
+                PuzzleManager.Instance.Invoke("ReturnToQuiz", 2f);
             }
             else
             {
@@ -35,8 +41,6 @@ public class DropSlot : MonoBehaviour, IDropHandler
                 draggedRectTransform.anchoredPosition = piece.originalPosition;
                 piece.currentSlotIndex = -1; // Reset the current slot index
             }
-
-            PuzzleManager.Instance.CheckWinCondition();
         }
     }
 }

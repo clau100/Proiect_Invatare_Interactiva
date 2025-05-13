@@ -2,11 +2,13 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-
+using UnityEngine.SceneManagement;
 
 public class QuizManager : MonoBehaviour
 {
-    public List<QuestionAndAnswers> QnA;
+    public List<QuestionAndAnswers> QnA; // set in inspector, only used to seed
+    private List<QuestionAndAnswers> questions; // runtime list
+
     public GameObject[] options;
     public int currentQuestion;
     public TextMeshProUGUI feedbackText;
@@ -14,36 +16,36 @@ public class QuizManager : MonoBehaviour
 
     public TextMeshProUGUI QuestionTxt;
 
-    // NEW: Quiz completion UI
+    // Quiz completion UI
     public GameObject quizCompletePanel;
     public TextMeshProUGUI scoreText;
 
-    // NEW: Tracking score
-    private int totalQuestions;
-    private int correctAnswers;
+    // Tracking score
+    private int totalQuestions = 0;
 
     private void Start()
     {
-        totalQuestions = QnA.Count;
-        generateQuestion();
+        if (GameManager.Instance.currentQnA == null || GameManager.Instance.currentQnA.Count == 0)
+        {
+            GameManager.Instance.currentQnA = new List<QuestionAndAnswers>(QnA);
+        }
+
+        questions = GameManager.Instance.currentQnA;
+
+        if (totalQuestions == 0) 
+        {
+            totalQuestions = QnA.Count; 
+        }
+
+        if (GameManager.Instance.puzzleCompleted)
+        {
+            ShowResults();
+        }
+        else
+        {
+            generateQuestion();
+        }
     }
-
-    //public void correct()
-    //{
-    //    correctAnswers++;
-    //    QnA.RemoveAt(currentQuestion);
-    //    Debug.Log("Remaining questions: " + QnA.Count);
-
-    //    if (QnA.Count > 0)
-    //    {
-    //        generateQuestion();
-    //    }
-    //    else
-    //    {
-    //        ShowResults();
-    //    }
-    //}
-
 
     void SetAnswers()
     {
@@ -55,9 +57,9 @@ public class QuizManager : MonoBehaviour
             answerScript.isCorrect = false;
 
             options[i].transform.GetChild(0).GetComponent<TextMeshProUGUI>().text =
-                QnA[currentQuestion].Answers[i];
+                questions[currentQuestion].Answers[i];
 
-            if (QnA[currentQuestion].CorrectAnswer == i)
+            if (questions[currentQuestion].CorrectAnswer == i)
             {
                 answerScript.isCorrect = true;
             }
@@ -67,37 +69,37 @@ public class QuizManager : MonoBehaviour
     public void AnswerSelected(bool isCorrect)
     {
         if (isCorrect)
-            correctAnswers++;
-
-        QnA.RemoveAt(currentQuestion);
-
-        if (QnA.Count > 0)
         {
-            generateQuestion();
+            GameManager.Instance.correctAnswers++;
+            GameManager.Instance.totalAttempts++;
+            GameManager.Instance.returnToQuiz = true;
+            questions.RemoveAt(currentQuestion);
+            SceneManager.LoadScene("Puzzle");
         }
         else
         {
-            ShowResults();
+            generateQuestion();
+            GameManager.Instance.totalAttempts++;
         }
     }
 
 
     void generateQuestion()
     {
-        currentQuestion = Random.Range(0, QnA.Count);
-        QuestionTxt.text = QnA[currentQuestion].Question;
+        currentQuestion = Random.Range(0, questions.Count);
+        QuestionTxt.text = questions[currentQuestion].Question;
         SetAnswers();
     }
 
-    // NEW: Display the quiz result
+    // Display the quiz result
     void ShowResults()
     {
-        Debug.Log("ShowResults() called");
+        int correct = GameManager.Instance.correctAnswers;
+        int attempts = GameManager.Instance.totalAttempts;
 
         quizCompletePanel.SetActive(true);
-
-        float percentage = (float)correctAnswers / totalQuestions;
-        scoreText.text = "Raspunsuri corecte: " + correctAnswers + " / " + totalQuestions;
+        float percentage = (float)correct / attempts;
+        scoreText.text = "Raspunsuri corecte: " + correct + " din " + attempts + " incercari.";
 
         // Default color
         Color bgColor = Color.white;
@@ -114,7 +116,7 @@ public class QuizManager : MonoBehaviour
         }
         else if (percentage >= 0.9f)
         {
-            feedbackText.text = "ESTI TOP!";
+            feedbackText.text = "ESTI TOP MODEL!";
             bgColor = new Color(0f, 0.7f, 0.1f); // Green
         }
 

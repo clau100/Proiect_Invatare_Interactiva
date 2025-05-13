@@ -186,6 +186,7 @@ MonoBehaviour:
   correctSlotIndex: 5
   currentSlotIndex: -1
   originalPosition: {x: 0, y: 0}
+  isUnlocked: 0
 --- !u!114 &13473569
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -301,7 +302,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -992,6 +993,7 @@ MonoBehaviour:
   correctSlotIndex: 3
   currentSlotIndex: -1
   originalPosition: {x: 0, y: 0}
+  isUnlocked: 0
 --- !u!114 &614175011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1097,6 +1099,7 @@ MonoBehaviour:
   correctSlotIndex: 9
   currentSlotIndex: -1
   originalPosition: {x: 0, y: 0}
+  isUnlocked: 0
 --- !u!114 &765195449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1202,6 +1205,7 @@ MonoBehaviour:
   correctSlotIndex: 8
   currentSlotIndex: -1
   originalPosition: {x: 0, y: 0}
+  isUnlocked: 0
 --- !u!114 &789081917
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1396,6 +1400,7 @@ MonoBehaviour:
   correctSlotIndex: 1
   currentSlotIndex: -1
   originalPosition: {x: 0, y: 0}
+  isUnlocked: 0
 --- !u!114 &985954916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1555,6 +1560,7 @@ MonoBehaviour:
   correctSlotIndex: 7
   currentSlotIndex: -1
   originalPosition: {x: 0, y: 0}
+  isUnlocked: 0
 --- !u!114 &1118914117
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1660,6 +1666,7 @@ MonoBehaviour:
   correctSlotIndex: 2
   currentSlotIndex: -1
   originalPosition: {x: 0, y: 0}
+  isUnlocked: 0
 --- !u!114 &1497010807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1933,6 +1940,7 @@ MonoBehaviour:
   correctSlotIndex: 4
   currentSlotIndex: -1
   originalPosition: {x: 0, y: 0}
+  isUnlocked: 0
 --- !u!114 &1817199006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2038,6 +2046,7 @@ MonoBehaviour:
   correctSlotIndex: 6
   currentSlotIndex: -1
   originalPosition: {x: 0, y: 0}
+  isUnlocked: 0
 --- !u!114 &1912728504
 MonoBehaviour:
   m_ObjectHideFlags: 0

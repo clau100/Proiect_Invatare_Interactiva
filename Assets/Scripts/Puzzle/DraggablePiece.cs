@@ -1,9 +1,10 @@
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 public class DraggablePiece : MonoBehaviour, IPointerDownHandler, IBeginDragHandler, IEndDragHandler, IDragHandler
 {
-    private RectTransform rectTransform;
+    public RectTransform rectTransform;
     private CanvasGroup canvasGroup;
     [SerializeField] private Canvas canvas;
 
@@ -13,11 +14,13 @@ public class DraggablePiece : MonoBehaviour, IPointerDownHandler, IBeginDragHand
     [HideInInspector] public Vector2 originalPosition;
 
     public bool isUnlocked = false;
+    private Image pieceImage;
 
     public void UnlockPiece()
     {
         isUnlocked = true;
-        gameObject.SetActive(true); // If pieces start hidden
+        canvasGroup.blocksRaycasts = true; // Enable drop interactions
+        SetAlpha(1f); // Fully visible
     }
 
     private void Awake()
@@ -25,28 +28,37 @@ public class DraggablePiece : MonoBehaviour, IPointerDownHandler, IBeginDragHand
         rectTransform = GetComponent<RectTransform>();
         canvasGroup = GetComponent<CanvasGroup>();
         canvas = GetComponentInParent<Canvas>();
+        pieceImage = GetComponent<Image>();
     }
 
     private void Start()
     {
         originalPosition = rectTransform.anchoredPosition;
+        if (!isUnlocked)
+        {
+            canvasGroup.blocksRaycasts = false; // Prevents triggering drop zones
+            SetAlpha(0.6f);
+        }
     }
 
     public void OnPointerDown(PointerEventData eventData) { }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        if (!isUnlocked) return; // Prevent dragging if locked
         canvasGroup.alpha = 0.6f;
         canvasGroup.blocksRaycasts = false;
     }
 
     public void OnDrag(PointerEventData eventData)
     {
+        if (!isUnlocked) return; // Prevent dragging if locked
         rectTransform.anchoredPosition += eventData.delta / canvas.scaleFactor;
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        if (!isUnlocked) return; // Prevent dragging if locked
         canvasGroup.alpha = 1f;
         canvasGroup.blocksRaycasts = true;
 
@@ -55,6 +67,16 @@ public class DraggablePiece : MonoBehaviour, IPointerDownHandler, IBeginDragHand
         {
             rectTransform.anchoredPosition = originalPosition;
             currentSlotIndex = -1;
+        }
+    }
+
+    private void SetAlpha(float alpha)
+    {
+        if (pieceImage != null)
+        {
+            Color c = pieceImage.color;
+            c.a = alpha;
+            pieceImage.color = c;
         }
     }
 }

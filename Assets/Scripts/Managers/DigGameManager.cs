@@ -1,5 +1,3 @@
-using UnityEngine;
-
 // Assets/Scripts/Managers/DigGameManager.cs
 using UnityEngine;
 using TMPro;
