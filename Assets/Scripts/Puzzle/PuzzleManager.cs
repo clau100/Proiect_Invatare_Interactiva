@@ -10,6 +10,8 @@ public class PuzzleManager : MonoBehaviour
 
     public DraggablePiece[] pieces;
 
+    public string QuizName;
+
     private void Awake()
     {
         Instance = this;
@@ -66,7 +68,7 @@ public class PuzzleManager : MonoBehaviour
         if (GameManager.Instance.returnToQuiz)
         {
             GameManager.Instance.returnToQuiz = false;
-            SceneManager.LoadScene("Quiz"); 
+            SceneManager.LoadScene(this.QuizName); 
         }
     }
 }

@@ -1259,7 +1259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb166b1c3766888459cb557a44894ad7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: SampleScene
+  sceneToLoad: QuizMaramures
   outlineMaterial: {fileID: 2100000, guid: dc8162893c2051e479bf6d63f6dc50fd, type: 2}
 --- !u!1 &499898059
 GameObject:
@@ -1750,7 +1750,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb166b1c3766888459cb557a44894ad7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: SampleScene
+  sceneToLoad: QuizMuntenia
   outlineMaterial: {fileID: 2100000, guid: dc8162893c2051e479bf6d63f6dc50fd, type: 2}
 --- !u!1 &590153275
 GameObject:
@@ -2319,7 +2319,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb166b1c3766888459cb557a44894ad7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: SampleScene
+  sceneToLoad: QuizMoldova
   outlineMaterial: {fileID: 2100000, guid: dc8162893c2051e479bf6d63f6dc50fd, type: 2}
 --- !u!1 &688085188
 GameObject:
@@ -2778,7 +2778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb166b1c3766888459cb557a44894ad7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: SampleScene
+  sceneToLoad: QuizOltenia
   outlineMaterial: {fileID: 2100000, guid: dc8162893c2051e479bf6d63f6dc50fd, type: 2}
 --- !u!1 &810293373
 GameObject:
@@ -3685,7 +3685,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb166b1c3766888459cb557a44894ad7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: SampleScene
+  sceneToLoad: QuizBanat
   outlineMaterial: {fileID: 2100000, guid: dc8162893c2051e479bf6d63f6dc50fd, type: 2}
 --- !u!1 &1358379882
 GameObject:
@@ -4734,7 +4734,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb166b1c3766888459cb557a44894ad7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: SampleScene
+  sceneToLoad: QuizTransilvania
   outlineMaterial: {fileID: 2100000, guid: dc8162893c2051e479bf6d63f6dc50fd, type: 2}
 --- !u!1 &1820103366
 GameObject:
@@ -5037,7 +5037,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb166b1c3766888459cb557a44894ad7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: DigScene
+  sceneToLoad: QuizDobrogea
   outlineMaterial: {fileID: 2100000, guid: dc8162893c2051e479bf6d63f6dc50fd, type: 2}
 --- !u!1 &1860345597
 GameObject:
@@ -5305,7 +5305,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb166b1c3766888459cb557a44894ad7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: SampleScene
+  sceneToLoad: QuizBucovina
   outlineMaterial: {fileID: 2100000, guid: dc8162893c2051e479bf6d63f6dc50fd, type: 2}
 --- !u!1 &1963954212
 GameObject:
@@ -5981,7 +5981,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb166b1c3766888459cb557a44894ad7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: DigScene
+  sceneToLoad: QuizCrisana
   outlineMaterial: {fileID: 2100000, guid: dc8162893c2051e479bf6d63f6dc50fd, type: 2}
 --- !u!1 &2117321278
 GameObject:

@@ -144,6 +144,6 @@ public class RegionClickHandler : MonoBehaviour
     {
         // Load the configured scene
         Debug.Log($"➡️ Loading scene: {sceneToLoad}");
-        SceneManager.LoadScene("DigScene");
+        SceneManager.LoadScene(sceneToLoad);
     }
 }

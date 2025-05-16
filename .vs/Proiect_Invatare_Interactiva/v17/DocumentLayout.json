@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\RuntimeScripts\\RegionController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\RuntimeScripts\\RegionController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\MapManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Managers\\MapManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\RegionManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Managers\\RegionManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Map\\MapSection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Map\\MapSection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\QuizManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Quizz\\QuizManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,20 +15,16 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Puzzle\\PuzzleManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Puzzle\\DropSlot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Puzzle\\DropSlot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Puzzle\\DraggablePiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Puzzle\\DraggablePiece.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\AnswerScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Quizz\\AnswerScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\QuizManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Quizz\\QuizManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\ResetButtonHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Managers\\ResetButtonHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\StartGameHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Managers\\StartGameHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,132 +42,80 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegionController.cs",
-              "DocumentMoniker": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\RuntimeScripts\\RegionController.cs",
-              "RelativeDocumentMoniker": "Assets\\RuntimeScripts\\RegionController.cs",
-              "ToolTip": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\RuntimeScripts\\RegionController.cs",
-              "RelativeToolTip": "Assets\\RuntimeScripts\\RegionController.cs",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "StartGameHelper.cs",
+              "DocumentMoniker": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\StartGameHelper.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\StartGameHelper.cs",
+              "ToolTip": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\StartGameHelper.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\StartGameHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T18:26:47.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MapSection.cs",
-              "DocumentMoniker": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Map\\MapSection.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Map\\MapSection.cs",
-              "ToolTip": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Map\\MapSection.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Map\\MapSection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T18:24:56.395Z",
+              "WhenOpened": "2025-05-16T00:06:44.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\GameManager.cs",
-              "ToolTip": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ResetButtonHelper.cs",
+              "DocumentMoniker": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\ResetButtonHelper.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\ResetButtonHelper.cs",
+              "ToolTip": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\ResetButtonHelper.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\ResetButtonHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T18:24:18.849Z",
+              "WhenOpened": "2025-05-15T23:56:13.066Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegionManager.cs",
-              "DocumentMoniker": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\RegionManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\RegionManager.cs",
-              "ToolTip": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\RegionManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\RegionManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T18:24:10.436Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MapManager.cs",
-              "DocumentMoniker": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\MapManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\MapManager.cs",
-              "ToolTip": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\MapManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\MapManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T18:23:53.751Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PuzzleManager.cs",
-              "DocumentMoniker": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Puzzle\\PuzzleManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Puzzle\\PuzzleManager.cs",
-              "ToolTip": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Puzzle\\PuzzleManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Puzzle\\PuzzleManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T17:38:32.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "DropSlot.cs",
-              "DocumentMoniker": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Puzzle\\DropSlot.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Puzzle\\DropSlot.cs",
-              "ToolTip": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Puzzle\\DropSlot.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Puzzle\\DropSlot.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:05:05.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DraggablePiece.cs",
-              "DocumentMoniker": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Puzzle\\DraggablePiece.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Puzzle\\DraggablePiece.cs",
-              "ToolTip": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Puzzle\\DraggablePiece.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Puzzle\\DraggablePiece.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T15:04:01.918Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "QuizManager.cs",
-              "DocumentMoniker": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\QuizManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Quizz\\QuizManager.cs",
-              "ToolTip": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\QuizManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Quizz\\QuizManager.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAABYAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T12:07:52.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
               "Title": "AnswerScript.cs",
               "DocumentMoniker": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\AnswerScript.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Quizz\\AnswerScript.cs",
               "ToolTip": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\AnswerScript.cs",
               "RelativeToolTip": "Assets\\Scripts\\Quizz\\AnswerScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T12:07:37.524Z",
+              "WhenOpened": "2025-05-15T22:42:04.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PuzzleManager.cs",
+              "DocumentMoniker": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Puzzle\\PuzzleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Puzzle\\PuzzleManager.cs",
+              "ToolTip": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Puzzle\\PuzzleManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Puzzle\\PuzzleManager.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T13:38:45.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "QuizManager.cs",
+              "DocumentMoniker": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\QuizManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Quizz\\QuizManager.cs",
+              "ToolTip": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\QuizManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Quizz\\QuizManager.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T13:25:00.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\GameManager.cs",
+              "ToolTip": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\GameManager.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T13:04:49.52Z",
               "EditorCaption": ""
             }
           ]
