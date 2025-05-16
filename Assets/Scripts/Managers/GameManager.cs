@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -24,11 +25,19 @@ public class GameManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
+    public void StartGame()
+    {
+        SceneManager.LoadScene("MainMap");
+    }
 
     public void ResetGame()
     {
         correctAnswers = 0;
+        totalAttempts = 0;
         returnToQuiz = false;
-        placedPieces.Clear(); 
+        puzzleCompleted = false;
+        placedPieces.Clear();
+        currentQnA = new List<QuestionAndAnswers>();
+        SceneManager.LoadScene("StartScene");
     }
 }

@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\AnswerScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Quizz\\AnswerScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\QuestionsAndAnswers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Quizz\\QuestionsAndAnswers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Managers\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\QuizManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Quizz\\QuizManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Puzzle\\PuzzleManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Puzzle\\PuzzleManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\RuntimeScripts\\RegionController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\RuntimeScripts\\RegionController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -31,40 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "QuizManager.cs",
-              "DocumentMoniker": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\QuizManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Quizz\\QuizManager.cs",
-              "ToolTip": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\QuizManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Quizz\\QuizManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAAFAAAAAAAAAA==",
+              "Title": "PuzzleManager.cs",
+              "DocumentMoniker": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Puzzle\\PuzzleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Puzzle\\PuzzleManager.cs",
+              "ToolTip": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Puzzle\\PuzzleManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Puzzle\\PuzzleManager.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAD0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T12:07:52.767Z",
+              "WhenOpened": "2025-05-15T13:38:45.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "QuestionsAndAnswers.cs",
-              "DocumentMoniker": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\QuestionsAndAnswers.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Quizz\\QuestionsAndAnswers.cs",
-              "ToolTip": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\QuestionsAndAnswers.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Quizz\\QuestionsAndAnswers.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Title": "QuizManager.cs",
+              "DocumentMoniker": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\QuizManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Quizz\\QuizManager.cs",
+              "ToolTip": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\QuizManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Quizz\\QuizManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T12:07:38.773Z",
+              "WhenOpened": "2025-05-15T13:25:00.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegionController.cs",
+              "DocumentMoniker": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\RuntimeScripts\\RegionController.cs",
+              "RelativeDocumentMoniker": "Assets\\RuntimeScripts\\RegionController.cs",
+              "ToolTip": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\RuntimeScripts\\RegionController.cs",
+              "RelativeToolTip": "Assets\\RuntimeScripts\\RegionController.cs",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T13:06:51.29Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AnswerScript.cs",
-              "DocumentMoniker": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\AnswerScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Quizz\\AnswerScript.cs",
-              "ToolTip": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\AnswerScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Quizz\\AnswerScript.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAYAAAAAAAAAA==",
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\GameManager.cs",
+              "ToolTip": "C:\\Users\\EMANUEL\\Desktop\\Invatare\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\GameManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T12:07:37.524Z",
+              "WhenOpened": "2025-05-15T13:04:49.52Z",
               "EditorCaption": ""
             }
           ]

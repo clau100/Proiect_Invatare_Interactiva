@@ -2,6 +2,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class QuizManager : MonoBehaviour
@@ -22,6 +23,13 @@ public class QuizManager : MonoBehaviour
 
     // Tracking score
     private int totalQuestions = 0;
+
+    // PuzzleNavigation
+    public string PuzzleName;
+
+    private int lastQuestion = -1;
+    public List<AnswerScript> answerButtons;
+    private bool isFirstQuestion = true;
 
     private void Start()
     {
@@ -74,22 +82,52 @@ public class QuizManager : MonoBehaviour
             GameManager.Instance.totalAttempts++;
             GameManager.Instance.returnToQuiz = true;
             questions.RemoveAt(currentQuestion);
-            SceneManager.LoadScene("Puzzle");
+            SceneManager.LoadScene(this.PuzzleName);
         }
         else
         {
-            generateQuestion();
+            StartCoroutine(WaitBeforeNextQuestion()); // Delay so we can color the button red
             GameManager.Instance.totalAttempts++;
         }
     }
 
+    private IEnumerator WaitBeforeNextQuestion()
+    {
+        yield return new WaitForSeconds(0.7f); // Wait 0.7 second
+        generateQuestion();
+    }
+
+
 
     void generateQuestion()
     {
-        currentQuestion = Random.Range(0, questions.Count);
+        // Only reset colors if it's not the first question
+        if (!isFirstQuestion)
+        {
+            foreach (var btn in answerButtons)
+            {
+                btn.ResetAnswer();
+            }
+        }
+
+        if (questions.Count == 0) return;
+
+        int newQuestion;
+        do
+        {
+            newQuestion = Random.Range(0, questions.Count);
+        } while (questions.Count > 1 && newQuestion == lastQuestion);
+
+        currentQuestion = newQuestion;
+        lastQuestion = currentQuestion;
+
         QuestionTxt.text = questions[currentQuestion].Question;
         SetAnswers();
+
+        // After the first question is loaded, flag it
+        isFirstQuestion = false;
     }
+
 
     // Display the quiz result
     void ShowResults()
@@ -122,5 +160,13 @@ public class QuizManager : MonoBehaviour
 
         // Apply background color
         quizCompletePanel.GetComponent<Image>().color = bgColor;
+        ResetQuiz();
+    }
+
+    public void ResetQuiz()
+    {
+        totalQuestions = 0;
+        lastQuestion = -1;
+        isFirstQuestion = true;
     }
 }

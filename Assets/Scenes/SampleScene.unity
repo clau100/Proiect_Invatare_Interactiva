@@ -1671,6 +1671,8 @@ MonoBehaviour:
   QuestionTxt: {fileID: 2026439806}
   quizCompletePanel: {fileID: 743846353}
   scoreText: {fileID: 369612385}
+  PuzzleName: 
+  answerButtons: []
 --- !u!225 &927612198
 CanvasGroup:
   m_ObjectHideFlags: 0
