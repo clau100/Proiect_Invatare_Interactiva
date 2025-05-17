@@ -1233,9 +1233,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1803106501
+  m_SortingLayer: 2
+  m_SortingOrder: 10
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1261,6 +1261,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: QuizMaramures
   outlineMaterial: {fileID: 2100000, guid: dc8162893c2051e479bf6d63f6dc50fd, type: 2}
+  unselectedFillAlpha: 0.2
+  unselectedOutlineAlpha: 0.5
+  unselectedOutlineWidth: 1
+  unselectedScale: {x: 1, y: 1, z: 1}
+  selectedFillAlpha: 1
+  selectedOutlineAlpha: 1
+  selectedOutlineWidth: 3
+  selectedScale: {x: 1.05, y: 1.05, z: 1}
 --- !u!1 &499898059
 GameObject:
   m_ObjectHideFlags: 0
@@ -1724,9 +1732,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1803106501
+  m_SortingLayer: 2
+  m_SortingOrder: 10
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1752,6 +1760,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: QuizMuntenia
   outlineMaterial: {fileID: 2100000, guid: dc8162893c2051e479bf6d63f6dc50fd, type: 2}
+  unselectedFillAlpha: 0.2
+  unselectedOutlineAlpha: 0.5
+  unselectedOutlineWidth: 1
+  unselectedScale: {x: 1, y: 1, z: 1}
+  selectedFillAlpha: 1
+  selectedOutlineAlpha: 1
+  selectedOutlineWidth: 3
+  selectedScale: {x: 1.05, y: 1.05, z: 1}
 --- !u!1 &590153275
 GameObject:
   m_ObjectHideFlags: 0
@@ -2293,9 +2309,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1803106501
+  m_SortingLayer: 2
+  m_SortingOrder: 10
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2321,6 +2337,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: QuizMoldova
   outlineMaterial: {fileID: 2100000, guid: dc8162893c2051e479bf6d63f6dc50fd, type: 2}
+  unselectedFillAlpha: 0.2
+  unselectedOutlineAlpha: 0.5
+  unselectedOutlineWidth: 1
+  unselectedScale: {x: 1, y: 1, z: 1}
+  selectedFillAlpha: 1
+  selectedOutlineAlpha: 1
+  selectedOutlineWidth: 3
+  selectedScale: {x: 1.05, y: 1.05, z: 1}
 --- !u!1 &688085188
 GameObject:
   m_ObjectHideFlags: 0
@@ -2752,9 +2776,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1803106501
+  m_SortingLayer: 2
+  m_SortingOrder: 10
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2780,6 +2804,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: QuizOltenia
   outlineMaterial: {fileID: 2100000, guid: dc8162893c2051e479bf6d63f6dc50fd, type: 2}
+  unselectedFillAlpha: 0.2
+  unselectedOutlineAlpha: 0.5
+  unselectedOutlineWidth: 1
+  unselectedScale: {x: 1, y: 1, z: 1}
+  selectedFillAlpha: 1
+  selectedOutlineAlpha: 1
+  selectedOutlineWidth: 3
+  selectedScale: {x: 1.05, y: 1.05, z: 1}
 --- !u!1 &810293373
 GameObject:
   m_ObjectHideFlags: 0
@@ -3659,9 +3691,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1803106501
+  m_SortingLayer: 2
+  m_SortingOrder: 10
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3687,6 +3719,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: QuizBanat
   outlineMaterial: {fileID: 2100000, guid: dc8162893c2051e479bf6d63f6dc50fd, type: 2}
+  unselectedFillAlpha: 0.2
+  unselectedOutlineAlpha: 0.5
+  unselectedOutlineWidth: 1
+  unselectedScale: {x: 1, y: 1, z: 1}
+  selectedFillAlpha: 1
+  selectedOutlineAlpha: 1
+  selectedOutlineWidth: 3
+  selectedScale: {x: 1.05, y: 1.05, z: 1}
 --- !u!1 &1358379882
 GameObject:
   m_ObjectHideFlags: 0
@@ -4249,6 +4289,78 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1510696908
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1510696909}
+  - component: {fileID: 1510696911}
+  - component: {fileID: 1510696910}
+  m_Layer: 5
+  m_Name: RawImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1510696909
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510696908}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1606855247}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 6.83, y: 0}
+  m_SizeDelta: {x: 1933.67, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1510696910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510696908}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1344c3c82d62a2a41a3576d8abb8e3ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Texture: {fileID: 2800000, guid: 768816d59b30a1f489f88057bf59b47d, type: 3}
+  m_UVRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+--- !u!222 &1510696911
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510696908}
+  m_CullTransparentMesh: 1
 --- !u!1 &1585440188
 GameObject:
   m_ObjectHideFlags: 0
@@ -4336,6 +4448,187 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1606855243
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1606855247}
+  - component: {fileID: 1606855246}
+  - component: {fileID: 1606855245}
+  - component: {fileID: 1606855244}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1606855244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606855243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &1606855245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606855243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 800, y: 600}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &1606855246
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606855243}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 1
+  m_Camera: {fileID: 810293375}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &1606855247
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606855243}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1510696909}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &1716559847
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1716559850}
+  - component: {fileID: 1716559849}
+  - component: {fileID: 1716559848}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1716559848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716559847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_MoveRepeatDelay: 0.5
+  m_MoveRepeatRate: 0.1
+  m_XRTrackingOrigin: {fileID: 0}
+  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_PointAction: {fileID: -1654692200621890270, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MoveAction: {fileID: -8784545083839296357, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_SubmitAction: {fileID: 392368643174621059, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_CancelAction: {fileID: 7727032971491509709, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_LeftClickAction: {fileID: 3001919216989983466, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_MiddleClickAction: {fileID: -2185481485913320682, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_RightClickAction: {fileID: -4090225696740746782, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_ScrollWheelAction: {fileID: 6240969308177333660, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDevicePositionAction: {fileID: 6564999863303420839, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_TrackedDeviceOrientationAction: {fileID: 7970375526676320489, guid: ca9f5fa95ffab41fb9a615ab714db018, type: 3}
+  m_DeselectOnBackgroundClick: 1
+  m_PointerBehavior: 0
+  m_CursorLockBehavior: 0
+  m_ScrollDeltaPerTick: 6
+--- !u!114 &1716559849
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716559847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1716559850
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1716559847}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1722820015
 GameObject:
   m_ObjectHideFlags: 0
@@ -4708,9 +5001,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1803106501
+  m_SortingLayer: 2
+  m_SortingOrder: 10
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4736,6 +5029,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: QuizTransilvania
   outlineMaterial: {fileID: 2100000, guid: dc8162893c2051e479bf6d63f6dc50fd, type: 2}
+  unselectedFillAlpha: 0.2
+  unselectedOutlineAlpha: 0.5
+  unselectedOutlineWidth: 1
+  unselectedScale: {x: 1, y: 1, z: 1}
+  selectedFillAlpha: 1
+  selectedOutlineAlpha: 1
+  selectedOutlineWidth: 3
+  selectedScale: {x: 1.05, y: 1.05, z: 1}
 --- !u!1 &1820103366
 GameObject:
   m_ObjectHideFlags: 0
@@ -4809,9 +5110,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1803106501
+  m_SortingLayer: 2
+  m_SortingOrder: 10
   m_Sprite: {fileID: 3286163911610860551, guid: 30cb340743134aa44b9cba75ccf97cd8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5011,9 +5312,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1803106501
+  m_SortingLayer: 2
+  m_SortingOrder: 10
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5039,6 +5340,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: QuizDobrogea
   outlineMaterial: {fileID: 2100000, guid: dc8162893c2051e479bf6d63f6dc50fd, type: 2}
+  unselectedFillAlpha: 0.2
+  unselectedOutlineAlpha: 0.5
+  unselectedOutlineWidth: 1
+  unselectedScale: {x: 1, y: 1, z: 1}
+  selectedFillAlpha: 1
+  selectedOutlineAlpha: 1
+  selectedOutlineWidth: 3
+  selectedScale: {x: 1.05, y: 1.05, z: 1}
 --- !u!1 &1860345597
 GameObject:
   m_ObjectHideFlags: 0
@@ -5279,9 +5588,9 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1803106501
+  m_SortingLayer: 2
+  m_SortingOrder: 10
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5307,6 +5616,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: QuizBucovina
   outlineMaterial: {fileID: 2100000, guid: dc8162893c2051e479bf6d63f6dc50fd, type: 2}
+  unselectedFillAlpha: 0.2
+  unselectedOutlineAlpha: 0.5
+  unselectedOutlineWidth: 1
+  unselectedScale: {x: 1, y: 1, z: 1}
+  selectedFillAlpha: 1
+  selectedOutlineAlpha: 1
+  selectedOutlineWidth: 3
+  selectedScale: {x: 1.05, y: 1.05, z: 1}
 --- !u!1 &1963954212
 GameObject:
   m_ObjectHideFlags: 0
@@ -5955,11 +6272,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: 1803106501
+  m_SortingLayer: 2
+  m_SortingOrder: 10
   m_Sprite: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.3018868, b: 0.09852514, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -5983,6 +6300,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sceneToLoad: QuizCrisana
   outlineMaterial: {fileID: 2100000, guid: dc8162893c2051e479bf6d63f6dc50fd, type: 2}
+  unselectedFillAlpha: 0.2
+  unselectedOutlineAlpha: 0.5
+  unselectedOutlineWidth: 1
+  unselectedScale: {x: 1, y: 1, z: 1}
+  selectedFillAlpha: 1
+  selectedOutlineAlpha: 1
+  selectedOutlineWidth: 3
+  selectedScale: {x: 1.05, y: 1.05, z: 1}
 --- !u!1 &2117321278
 GameObject:
   m_ObjectHideFlags: 0
@@ -6077,3 +6402,5 @@ SceneRoots:
   - {fileID: 810293376}
   - {fileID: 1358379883}
   - {fileID: 613565399}
+  - {fileID: 1606855247}
+  - {fileID: 1716559850}
