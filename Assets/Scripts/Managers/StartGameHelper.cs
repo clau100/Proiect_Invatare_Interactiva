@@ -13,4 +13,15 @@ public class StartGameHelper : MonoBehaviour
         Debug.Log("Calling GameManager.StartGame()");
         GameManager.Instance.StartGame();
     }
+    public void OnInfo()
+    {
+        if (GameManager.Instance == null)
+        {
+            Debug.LogError("GameManager.Instance is null!");
+            return;
+        }
+
+        Debug.Log("Calling GameManager.StartGame()");
+        GameManager.Instance.LoadInfo();
+    }
 }

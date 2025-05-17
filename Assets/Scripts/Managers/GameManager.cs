@@ -13,6 +13,9 @@ public class GameManager : MonoBehaviour
     public HashSet<int> placedPieces = new HashSet<int>();
     public List<QuestionAndAnswers> currentQnA; // stores the quiz list between scenes
 
+    public List<string> completedPuzzles = new List<string>();
+    public int infoIndex = 0;
+
     private void Awake()
     {
         if (Instance == null)
@@ -39,5 +42,10 @@ public class GameManager : MonoBehaviour
         placedPieces.Clear();
         currentQnA = new List<QuestionAndAnswers>();
         SceneManager.LoadScene("StartScene");
+    }
+
+    public void LoadInfo()
+    {
+        SceneManager.LoadScene("InfoScene");
     }
 }

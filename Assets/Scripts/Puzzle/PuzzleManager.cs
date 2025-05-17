@@ -26,6 +26,7 @@ public class PuzzleManager : MonoBehaviour
             Debug.Log("Puzzle Complete and Correct!");
             GameManager.Instance.puzzleCompleted = true;  // Set puzzle completion flag to true
 
+
             // Call the method to return to quiz
             PuzzleManager.Instance.Invoke("ReturnToQuiz", 2f);
         }

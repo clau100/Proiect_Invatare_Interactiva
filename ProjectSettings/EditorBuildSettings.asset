@@ -41,6 +41,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Counties/BuzauSprite.unity
     guid: 3757a9cd0a9cd1f4caa14fa3236fdd5e
+  - enabled: 1
+    path: Assets/Scenes/LocationInfoScene.unity
+    guid: 39d3a974d848c0b4bad2116c2bde04fe
   - enabled: 0
     path: Assets/Scenes/Counties/CalarasiSprite.unity
     guid: 6e005ee1c371dfd439447325220f634d
@@ -266,6 +269,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Dig/DigScene.unity
     guid: 85e14b4642332db4794b0375a4070437
+  - enabled: 1
+    path: Assets/Scenes/InfoScene.unity
+    guid: fd356f1a524c1e14989fe6563cc820f7
   - enabled: 1
     path: Assets/Scenes/StartScene.unity
     guid: 8e150ec2a46a53b4a9b13633e53b2b2c

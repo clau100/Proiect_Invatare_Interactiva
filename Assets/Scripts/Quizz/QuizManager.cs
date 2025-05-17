@@ -160,6 +160,7 @@ public class QuizManager : MonoBehaviour
 
         // Apply background color
         quizCompletePanel.GetComponent<Image>().color = bgColor;
+        GameManager.Instance.completedPuzzles.Add(this.PuzzleName);
         ResetQuiz();
     }
 
