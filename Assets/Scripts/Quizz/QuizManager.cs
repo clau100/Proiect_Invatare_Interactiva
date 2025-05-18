@@ -144,18 +144,18 @@ public class QuizManager : MonoBehaviour
 
         if (percentage < 0.3f)
         {
-            feedbackText.text = "JALE, mai invata puiu!";
+            feedbackText.text = "Ai mai putea învăța puțin!";
             bgColor = new Color(0.8f, 0f, 0f); // Red
         }
         else if (percentage > 0.3f && percentage < 0.8f)
         {
-            feedbackText.text = "Ești bine moșule!";
-            bgColor = new Color(1f, 0.65f, 0f); // Orange-yellow
+            feedbackText.text = "Foarte bine, felicitări!";
+            bgColor = new Color(0.196f, 0.804f, 0.196f); ; // Orange-yellow
         }
         else if (percentage >= 0.9f)
         {
-            feedbackText.text = "ESTI TOP MODEL!";
-            bgColor = new Color(0f, 0.7f, 0.1f); // Green
+            feedbackText.text = "Wow, perfect!";
+            bgColor = new Color(0.196f, 0.804f, 0.196f); // Green
         }
 
         // Apply background color

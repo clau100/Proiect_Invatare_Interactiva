@@ -7,32 +7,20 @@
       "RelativeMoniker": "D:0:0:{BD80C843-C032-7F3D-3C51-8789CCDABFE0}|Assembly-CSharp.csproj|solutionrelative:assets\\runtimescripts\\regioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD80C843-C032-7F3D-3C51-8789CCDABFE0}|Assembly-CSharp.csproj|e:\\projects\\ii\\proiect_invatare_interactiva\\assets\\scripts\\quizz\\quizmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BD80C843-C032-7F3D-3C51-8789CCDABFE0}|Assembly-CSharp.csproj|E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\assets\\scripts\\quizz\\quizmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD80C843-C032-7F3D-3C51-8789CCDABFE0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\quizz\\quizmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD80C843-C032-7F3D-3C51-8789CCDABFE0}|Assembly-CSharp.csproj|e:\\projects\\ii\\proiect_invatare_interactiva\\assets\\scripts\\managers\\infomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD80C843-C032-7F3D-3C51-8789CCDABFE0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\infomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD80C843-C032-7F3D-3C51-8789CCDABFE0}|Assembly-CSharp.csproj|E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\StartGameHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD80C843-C032-7F3D-3C51-8789CCDABFE0}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Managers\\StartGameHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD80C843-C032-7F3D-3C51-8789CCDABFE0}|Assembly-CSharp.csproj|E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\ResetButtonHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD80C843-C032-7F3D-3C51-8789CCDABFE0}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Managers\\ResetButtonHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD80C843-C032-7F3D-3C51-8789CCDABFE0}|Assembly-CSharp.csproj|E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\AnswerScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD80C843-C032-7F3D-3C51-8789CCDABFE0}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Quizz\\AnswerScript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD80C843-C032-7F3D-3C51-8789CCDABFE0}|Assembly-CSharp.csproj|E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Puzzle\\PuzzleManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD80C843-C032-7F3D-3C51-8789CCDABFE0}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Puzzle\\PuzzleManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD80C843-C032-7F3D-3C51-8789CCDABFE0}|Assembly-CSharp.csproj|E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD80C843-C032-7F3D-3C51-8789CCDABFE0}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Managers\\GameManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD80C843-C032-7F3D-3C51-8789CCDABFE0}|Assembly-CSharp.csproj|E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\assets\\scripts\\managers\\infomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD80C843-C032-7F3D-3C51-8789CCDABFE0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\infomanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD80C843-C032-7F3D-3C51-8789CCDABFE0}|Assembly-CSharp.csproj|E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Puzzle\\PuzzleManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD80C843-C032-7F3D-3C51-8789CCDABFE0}|Assembly-CSharp.csproj|solutionrelative:Assets\\Scripts\\Puzzle\\PuzzleManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,82 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegionController.cs",
-              "DocumentMoniker": "E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\RuntimeScripts\\RegionController.cs",
-              "RelativeDocumentMoniker": "Assets\\RuntimeScripts\\RegionController.cs",
-              "ToolTip": "E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\RuntimeScripts\\RegionController.cs",
-              "RelativeToolTip": "Assets\\RuntimeScripts\\RegionController.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAuwIoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T20:11:40.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "InfoManager.cs",
               "DocumentMoniker": "E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\InfoManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\InfoManager.cs",
               "ToolTip": "E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\InfoManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\InfoManager.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAwwBAAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAADIAAAAAAAAAAAAuwDwAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T19:12:36.451Z",
+              "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "StartGameHelper.cs",
-              "DocumentMoniker": "E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\StartGameHelper.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\StartGameHelper.cs",
-              "ToolTip": "E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\StartGameHelper.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\StartGameHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T00:06:44.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ResetButtonHelper.cs",
-              "DocumentMoniker": "E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\ResetButtonHelper.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\ResetButtonHelper.cs",
-              "ToolTip": "E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\ResetButtonHelper.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Managers\\ResetButtonHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T23:56:13.066Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AnswerScript.cs",
-              "DocumentMoniker": "E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\AnswerScript.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Quizz\\AnswerScript.cs",
-              "ToolTip": "E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\AnswerScript.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Quizz\\AnswerScript.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEMAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T22:42:04.811Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PuzzleManager.cs",
-              "DocumentMoniker": "E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Puzzle\\PuzzleManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Puzzle\\PuzzleManager.cs",
-              "ToolTip": "E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Puzzle\\PuzzleManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Puzzle\\PuzzleManager.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAD0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:38:45.822Z"
             },
             {
               "$type": "Document",
@@ -127,22 +54,50 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Quizz\\QuizManager.cs",
               "ToolTip": "E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Quizz\\QuizManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Quizz\\QuizManager.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAowE0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAASwKIAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-15T13:25:00.029Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
+              "Title": "RegionController.cs",
+              "DocumentMoniker": "E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\RuntimeScripts\\RegionController.cs",
+              "RelativeDocumentMoniker": "Assets\\RuntimeScripts\\RegionController.cs",
+              "ToolTip": "E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\RuntimeScripts\\RegionController.cs*",
+              "RelativeToolTip": "Assets\\RuntimeScripts\\RegionController.cs*",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAcwK4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T20:11:40.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PuzzleManager.cs",
+              "DocumentMoniker": "E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Puzzle\\PuzzleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Puzzle\\PuzzleManager.cs",
+              "ToolTip": "E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Puzzle\\PuzzleManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Puzzle\\PuzzleManager.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAUwB0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T13:38:45.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\GameManager.cs",
               "ToolTip": "E:\\Projects\\ii\\Proiect_Invatare_Interactiva\\Assets\\Scripts\\Managers\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\GameManager.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACcAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwA8AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:04:49.52Z"
+              "WhenOpened": "2025-05-15T13:04:49.52Z",
+              "EditorCaption": ""
             }
           ]
         }

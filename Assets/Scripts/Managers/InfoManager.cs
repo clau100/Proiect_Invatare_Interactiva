@@ -58,7 +58,7 @@ public class InfoManager : MonoBehaviour
         GUI.BeginGroup(new Rect(startX, startY, gridWidth, gridHeight));
 
         GUIStyle customButtonStyle = new GUIStyle(GUI.skin.button);
-        customButtonStyle.fontSize = 80; // change font size
+        customButtonStyle.fontSize = 55; // change font size
         customButtonStyle.normal.textColor = Color.black; // change text color
 
         for (int row = 0; row < rows; row++)
@@ -79,8 +79,9 @@ public class InfoManager : MonoBehaviour
                         isClickable = true;
 
                 GUI.enabled = isClickable;
+                string text = isClickable ? regions[buttonIndex] : regions[buttonIndex] + " 🔒";
 
-                if (GUI.Button(buttonRect, regions[buttonIndex], customButtonStyle))
+                if (GUI.Button(buttonRect, text, customButtonStyle))
                 {
                     GameManager.Instance.infoIndex = buttonIndex;
                     SceneManager.LoadScene("LocationInfoScene");

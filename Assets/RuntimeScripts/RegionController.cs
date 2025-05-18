@@ -112,6 +112,12 @@ public class RegionClickHandler : MonoBehaviour
 
     private void OnMouseEnter()
     {
+        var res = GameManager.Instance.completedPuzzles;
+        foreach(var a in res)
+        {
+            Debug.Log(a);
+        }
+
         // hover highlight only if not selected
         if (currentlySelected != this)
             ApplyState(selectedFillAlpha, selectedOutlineAlpha * 0.7f, unselectedOutlineWidth);
